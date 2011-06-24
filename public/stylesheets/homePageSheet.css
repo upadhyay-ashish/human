@@ -1,0 +1,89 @@
+/* 
+    Document   : homePageSheet
+    Created on : Jun 22, 2011, 6:10:36 PM
+    Author     : Ankit Gupta-FIR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+  
+}
+#main
+{
+    height:860px;
+    width:1260px;
+}
+#topBanner
+{
+    height:193px;
+    width:939px;
+    margin-left: 150px;
+    border: solid 1px black;
+ 
+
+}
+#tabs
+{
+    height:40px;
+    width:700px;
+    margin-left: 290px;
+    margin-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+#imageBox
+{
+    border: solid 1px black;
+    height:600px;
+    width:800px;
+    margin-left: 240px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+}
+#bottomBanner
+{
+    border: solid 1px Black;
+    height:60px;
+    width:1240px;
+    margin-left:10px;
+    margin-top: 50px;
+}
+#tabs ul
+{
+    float: left;
+
+}
+#tabs ul li
+{
+    position: relative;
+    display: inline;
+    margin-left: 0.0px;
+    background: #FFFAE1;
+    padding-bottom: 9px;
+    padding-left: 3x;
+    padding-right: 3px;
+    padding-top: 1px;
+    border-top: solid 1px Black;
+    border-left: solid 1px Black;;
+    border-right: solid 1px Black;
+}
+#tabs ul li:hover
+{
+    background-color: Yellow;
+}
+#tabs ul li a
+{
+    text-decoration:none;
+}
+#tabs ul li a:hover
+{
+    background-color: Yellow;
+    color : Black;
+}
+

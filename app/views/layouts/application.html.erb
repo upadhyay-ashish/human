@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Help</title>
+    <%= stylesheet_link_tag 'scaffold', 'styles','homePageSheet' %>
+    <%= javascript_include_tag 'jquery', 'jquery.sizes', 'jquery.electric-slide', 'jquery-ui' %>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+    <div id="main">
+      <div id="topBanner">
+        <center><h1><%= image_tag("banner.png") %></h1></center>
+      </div>
+      <div id="tabs">
+        <center>
+          <ul>
+            <li><%= link_to 'Education',root_path %></li>
+            <li><%= link_to 'Old-age Home',people_path %></li>
+            <li><%= link_to 'Orphanages',root_path %></li>
+            <li><%= link_to 'Medical Facilities',root_path %></li>
+            <li><%= link_to 'Provide Employment',root_path %></li>
+            <li><%= link_to 'Support the site',root_path %></li>
+          </ul>
+
+        </center>
+      </div>
+      <div id="imageBox">
+        <center><%= yield %></center>
+      </div>
+      <div id="bottomBanner">
+        <center><h1>Banner Bottom</h1></center>
+      </div>
+    </div>
+  </body>
+</html>
