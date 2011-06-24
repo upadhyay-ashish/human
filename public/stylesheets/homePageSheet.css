@@ -12,7 +12,7 @@
 */
 
 body {
-  
+
 }
 #main
 {
@@ -24,9 +24,6 @@ body {
     height:193px;
     width:939px;
     margin-left: 150px;
-    border: solid 1px black;
- 
-
 }
 #tabs
 {
@@ -39,10 +36,9 @@ body {
 }
 #imageBox
 {
-    border: solid 1px black;
     height:600px;
     width:800px;
-    margin-left: 240px;
+    margin-left: 200px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
 }
@@ -63,19 +59,23 @@ body {
 {
     position: relative;
     display: inline;
-    margin-left: 0.0px;
-    background: #FFFAE1;
-    padding-bottom: 9px;
-    padding-left: 3x;
-    padding-right: 3px;
-    padding-top: 1px;
-    border-top: solid 1px Black;
-    border-left: solid 1px Black;;
-    border-right: solid 1px Black;
+    background-color: plum;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
 }
 #tabs ul li:hover
 {
     background-color: Yellow;
+    padding-bottom: 2.5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2.5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
 }
 #tabs ul li a
 {
@@ -85,5 +85,20 @@ body {
 {
     background-color: Yellow;
     color : Black;
+}
+#image1
+{
+    position: relative;
+    display:inline;
+    height:200px;
+    width:300px;
+}
+#image2
+{
+    margin-left: 50px;
+    position: relative;
+    display:inline;
+    height:200px;
+    width:300px;
 }
 
