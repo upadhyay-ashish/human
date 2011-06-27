@@ -1,6 +1,6 @@
 Help::Application.routes.draw do
   resources :users
-
+  resources :images
   resources :home
   resources :people
 
